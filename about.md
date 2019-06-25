@@ -12,4 +12,4 @@ Parts list -so far:
 1. EMG sensors
 2. Arduino
 3. Servo motors
-4. 3D-printed parts (such as fingers of the robotic arm)
+4. 3D-printed parts (such as fingers of the robotic arm) 
