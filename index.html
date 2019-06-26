@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 <style media="screen">
-  .btn { 
+  .btn {
                     background-color: #4CAF50;
                     color: white;
                     padding: 16px 20px;
@@ -18,7 +18,8 @@ layout: default
   <h1 class="page-heading">Posts </h1>
   Comming soon...
 
-  <ul class="post-list" id='none'>
+<!--before-->
+<!--here     <ul class="post-list" id='none'>
 
 
     {% assign sorted-posts = site.posts | reverse %}
@@ -26,7 +27,8 @@ layout: default
       <li>
         <h2 class="wrapper">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              <!-- {% if post.image %}<img style="float: right" src="{{ post.image }}" height="200">{% endif %} -->
+              <!-- {% if post.image %}<img style="float: right" src="{{ post.image }}" height="200">{% endif %} 
+
               {{ post.title }}
           </a>
         </h2>
@@ -34,6 +36,9 @@ layout: default
     {% endfor %}
 
   </ul>
+
+  -->
+  <!-- after -->
   <hr style="border:3px solid #f1f1f1">
                           <input type="text" placeholder="Comment..."style="background-color: #f2f2f2; width: 80%;"   id="title"/>
                           <button id='but'type="button" class="btn cancel" onclick="post()" >Post</button>
