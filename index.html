@@ -17,9 +17,21 @@ layout: default
                     opacity: 0.8;
                 }
 </style>
+.di {
+  width: 100px;
+  height: 100px;
+  background: #6ff2ba;
+  -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s, height 4s;
+}
 
+div:hover {
+  width: 300px;
+  height: 300px;
+}
+</style>
 <style>
-ul  { 
+ul  {
   background-image: url("sketch2.jpg");
 }
 </style>
@@ -34,12 +46,14 @@ ul  {
     {% for post in sorted-posts %}
       <li>
         <h2 class="wrapper">
+          <div id='di'>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
               {% if post.image %}<img style="float: right" src="{{ post.image }}" height="200">{% endif %}
 
               {{ post.title }}
           </a>
         </h2>
+        </div>
       </li>
     {% endfor %}
 
