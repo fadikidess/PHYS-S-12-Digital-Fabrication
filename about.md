@@ -17,12 +17,12 @@ Parts list -so far:
 
 In another lab session, I added 5 servo motors to the Arduino, and programmed the motors to imitate finger movement for the musical piece "Ode to Joy". Each servo was set to a note, and the angle of each servo is set according to the timing of the notes. So far, the Arduino plays the entire song through. The next part is to build a base for the servo motors to be placed on, and then to build and attach parts to the servos in order to push the piano keys.
 
-<img src="https://github.com/fadikidess/PHYS-S-12-Digital-Fabrication/blob/master/03/proj.jpg?raw=true" alt="Board Traces"  width="90%">
+ <img src="https://github.com/fadikidess/PHYS-S-12-Digital-Fabrication/blob/master/03/proj.jpg?raw=true" alt="Board Traces"  width="90%">
 
 
 
-<img src="https://github.com/fadikidess/PHYS-S-12-Digital-Fabrication/blob/master/03/pcb1.png?raw=true" alt="Board Traces"  width="90%">
+ <img src="https://github.com/fadikidess/PHYS-S-12-Digital-Fabrication/blob/master/03/pcb1.png?raw=true" alt="Board Traces"  width="90%">
 
 
 
-<img src="https://github.com/fadikidess/PHYS-S-12-Digital-Fabrication/blob/master/03/pcb2.png?raw=true" alt="Board Traces"  width="90%">
+ <img src="https://github.com/fadikidess/PHYS-S-12-Digital-Fabrication/blob/master/03/pcb2.png?raw=true" alt="Board Traces"  width="90%">
