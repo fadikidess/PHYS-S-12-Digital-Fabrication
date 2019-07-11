@@ -11,7 +11,7 @@ As for my final project, so far I have chosen to build a robot that plays the pi
 Parts list -so far:
 1. Arduino
 2. Servo motors
-3. 3D-printed parts (such as fingers)
+3. 3D-printed parts (such as fingers) 
 
 ### Final Project Progress
 
